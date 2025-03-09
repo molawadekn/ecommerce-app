@@ -18,3 +18,17 @@ const createTestData = async () => {
 };
 
 export default createTestData;
+
+const products = [
+  { id: 1, name: 'Product 1', price: 100 },
+  { id: 2, name: 'Product 2', price: 200 },
+  // Add more products as needed
+];
+
+const inventory = [
+  { product_id: 1, quantity: 10 },
+  { product_id: 2, quantity: 5 },
+  // Add more inventory items as needed
+];
+
+module.exports = { products, inventory };
